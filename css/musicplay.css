@@ -5,23 +5,17 @@
 			}
 			.div{
 				width: 80%;
-				margin-top: 200;
 				float: right;/*在左边*/
 			}
-			.img{
-				width: 400px;
-				height: 400px;/*图片的宽高*/
-				text-align: center;
-			}
-
+			
 			.bg {
 				/* 歌词调整区 */
 				width: 50%;/* 歌词显示盒子宽 */
 				height: 200px;/* 歌词显示盒子高度，需要多显示几行歌词相应调大即可 */
-				background-color:#ffffff; /* 歌词背景颜色 */
-				margin: 15px auto;
+				background-color:none; /* 歌词背景颜色 */
+				margin: 20px auto;
 				color: black;/* 歌词默认颜色,灰色 */
-				font-size: 12px;/* 歌词字体默认大小 */
+				font-size: 15px;/* 歌词字体默认大小 */
 				overflow: hidden;
 				position: relative;
 				font-family: "黑体";
@@ -46,7 +40,7 @@
 				/* 歌词高亮滚动区 */
 				color: red;/* 歌词滚动高亮颜色 */
 				/* font-weight: bold; *//* 文本加粗，不要，太丑了！ */
-				font-size: 20px; /* 歌词滚动行文字大小 */
+				font-size: 25px; /* 歌词滚动行文字大小 */
 			}
 
 			audio {
