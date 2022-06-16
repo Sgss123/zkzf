@@ -40,7 +40,7 @@
 				/* 歌词高亮滚动区 */
 				color: red;/* 歌词滚动高亮颜色 */
 				/* font-weight: bold; *//* 文本加粗，不要，太丑了！ */
-				font-size: 25px; /* 歌词滚动行文字大小 */
+				font-size: 35px; /* 歌词滚动行文字大小 */
 			}
 
 			audio {
