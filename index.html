@@ -6,6 +6,7 @@
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>旭晶七班祝艺芸七班中考顺利！</title>
 <!--<embed src="media/1.mp3" autostart="true" loop="true" hidden="true"/>-->
+<!-- <bgsound src="media/1.mp3" loop="-1"> -->
 <meta name="generator" content="Jekyll v3.9.2">
 <meta property="og:title" content="旭晶七班祝艺芸七班中考顺利！">
 <meta property="og:locale" content="en_US">
@@ -40,7 +41,14 @@
   <body>
     <a id="skip-to-content" href="https://www.waterspo.top/zkzf/#content">Skip to the content.</a>
     <!--<audio src="media/1.mp3" autoplay="autoplay" loop="loop"></audio>-->
-	<audio src="/media/1.mp3" autoplay="autoplay" controls="controls" loop="loop"></audio>
+	<!-- <audio src="/media/1.mp3" autoplay="autoplay" controls="controls" loop="loop"></audio> -->
+	<!-- <video name="media" loop="true"  autostart="true">
+	    <source src="media/1.mp3" type="audio/mp3">
+	</video> -->
+	<!-- <audio controls="controls" hidden="hidden" autoplay="autoplay" loop="loop">
+	<source src="你要播放的音乐.ogg" type="audio/ogg"/> -->
+	<audio id="bg" src="media/bg.mp3" autoplay="autoplay" loop="true"></audio>
+	
 
     <header class="page-header" role="banner">
       <h1 class="project-name">旭晶七班祝艺芸七班中考顺利！</h1>
@@ -62,6 +70,10 @@
           
       </footer>
     </main>
-  
-
-</body></html>
+</body>
+<script>
+	window.onclick=function(){
+		bg.play();
+	}
+</script>
+</html>
